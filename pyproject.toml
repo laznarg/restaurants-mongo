@@ -1,0 +1,14 @@
+[project]
+name = "restaurants-api"
+version = "0.1.0"
+description = "REST API with FastAPI and MongoDB"
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pymongo",
+    "python-dotenv",
+    "pydantic",
+    "uv"
+]
